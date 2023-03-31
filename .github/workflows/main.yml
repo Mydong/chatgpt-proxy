@@ -46,3 +46,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/chatgpt-proxy:latest
             ${{ secrets.DOCKER_USERNAME }}/chatgpt-proxy:${{ env.tag }}
+            
